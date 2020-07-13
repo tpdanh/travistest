@@ -2,7 +2,7 @@
 FROM alpine
 
 # Install dependency
-RUN apk add --update python
+#RUN apk add --update python
 
 ENV HOME /home/root
 RUN mkdir app
