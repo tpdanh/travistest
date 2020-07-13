@@ -10,4 +10,4 @@ before_script:
 
 script:
   - echo "hello" 
-  - docker run petepython
+  - docker run petepython sh -c "python pythontest.py" 
