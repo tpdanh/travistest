@@ -1,3 +1,10 @@
-language: bash
+language: python
+python:
+  - "2.7"
+
+services:
+  - docker
+
 script:
-- echo "hello world"
+  - docker build -t petepython:latest .
+  - docker run petepython
