@@ -69,7 +69,6 @@ more-itertools==5.0.0
 msgpack-python==0.4.8
 netaddr==0.7.19
 netifaces==0.10.6
-numpy==1.8.0rc1
 oauthlib==2.0.6
 oslo.config==4.13.2
 oslo.i18n==3.18.0
