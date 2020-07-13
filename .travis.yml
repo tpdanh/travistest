@@ -5,6 +5,8 @@ python:
 services:
   - docker
 
-script:
+before_install:
   - docker build -t petepython:latest .
+
+script:
   - docker run petepython
