@@ -3,7 +3,7 @@
 FROM python:3-alpine
 
 # Install dependency
-RUN apk add --update python
+#RUN apk add --update python
 #RUN apk add python
 
 ENV HOME /home/root
