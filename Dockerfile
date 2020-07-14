@@ -6,7 +6,7 @@ FROM alpine
 # Install dependency
 #RUN apk add --update python
 #RUN apk add python
-RUN apk add --no-cache --update python2.7
+RUN apk add --no-cache --update python2
 
 ENV HOME /home/root
 RUN mkdir app
