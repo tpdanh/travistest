@@ -1,12 +1,10 @@
 # Use an existing download image as base
-FROM alpine
-#FROM python:3-alpine
-#FROM python:3-alpine
+#FROM alpine
+FROM python:3-alpine
 
 # Install dependency
 #RUN apk add --update python
 #RUN apk add python
-RUN apk add --no-cache --update python2
 
 ENV HOME /home/root
 RUN mkdir app
